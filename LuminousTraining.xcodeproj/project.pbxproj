@@ -12,6 +12,16 @@
 		A313B84A22C091E70065F98F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A313B84822C091E70065F98F /* Main.storyboard */; };
 		A313B84C22C091E90065F98F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A313B84B22C091E90065F98F /* Assets.xcassets */; };
 		A313B84F22C091E90065F98F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A313B84D22C091E90065F98F /* LaunchScreen.storyboard */; };
+		A313B85722C093E90065F98F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A313B85622C093E90065F98F /* User.swift */; };
+		A313B85922C094510065F98F /* Phone.swift in Sources */ = {isa = PBXBuildFile; fileRef = A313B85822C094510065F98F /* Phone.swift */; };
+		A313B85B22C096DE0065F98F /* Consumer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A313B85A22C096DE0065F98F /* Consumer.swift */; };
+		A313B85D22C097110065F98F /* SystemIntegrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A313B85C22C097110065F98F /* SystemIntegrator.swift */; };
+		A313B85F22C09AE00065F98F /* GTI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A313B85E22C09AE00065F98F /* GTI.swift */; };
+		A313B86122C09AF20065F98F /* PCU.swift in Sources */ = {isa = PBXBuildFile; fileRef = A313B86022C09AF20065F98F /* PCU.swift */; };
+		A313B86322C09B0A0065F98F /* Zileo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A313B86222C09B0A0065F98F /* Zileo.swift */; };
+		A313B86622C09B350065F98F /* Battery.swift in Sources */ = {isa = PBXBuildFile; fileRef = A313B86522C09B350065F98F /* Battery.swift */; };
+		A313B86822C09C2A0065F98F /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = A313B86722C09C2A0065F98F /* Product.swift */; };
+		A313B86A22C0EF810065F98F /* SIOTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = A313B86922C0EF810065F98F /* SIOTP.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +32,16 @@
 		A313B84B22C091E90065F98F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A313B84E22C091E90065F98F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A313B85022C091E90065F98F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A313B85622C093E90065F98F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A313B85822C094510065F98F /* Phone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phone.swift; sourceTree = "<group>"; };
+		A313B85A22C096DE0065F98F /* Consumer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Consumer.swift; sourceTree = "<group>"; };
+		A313B85C22C097110065F98F /* SystemIntegrator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemIntegrator.swift; sourceTree = "<group>"; };
+		A313B85E22C09AE00065F98F /* GTI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTI.swift; sourceTree = "<group>"; };
+		A313B86022C09AF20065F98F /* PCU.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PCU.swift; sourceTree = "<group>"; };
+		A313B86222C09B0A0065F98F /* Zileo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zileo.swift; sourceTree = "<group>"; };
+		A313B86522C09B350065F98F /* Battery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Battery.swift; sourceTree = "<group>"; };
+		A313B86722C09C2A0065F98F /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		A313B86922C0EF810065F98F /* SIOTP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SIOTP.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +76,20 @@
 			children = (
 				A313B84422C091E70065F98F /* AppDelegate.swift */,
 				A313B84622C091E70065F98F /* ViewController.swift */,
+				A313B85622C093E90065F98F /* User.swift */,
 				A313B84822C091E70065F98F /* Main.storyboard */,
 				A313B84B22C091E90065F98F /* Assets.xcassets */,
 				A313B84D22C091E90065F98F /* LaunchScreen.storyboard */,
 				A313B85022C091E90065F98F /* Info.plist */,
+				A313B85822C094510065F98F /* Phone.swift */,
+				A313B85A22C096DE0065F98F /* Consumer.swift */,
+				A313B85C22C097110065F98F /* SystemIntegrator.swift */,
+				A313B85E22C09AE00065F98F /* GTI.swift */,
+				A313B86022C09AF20065F98F /* PCU.swift */,
+				A313B86222C09B0A0065F98F /* Zileo.swift */,
+				A313B86522C09B350065F98F /* Battery.swift */,
+				A313B86722C09C2A0065F98F /* Product.swift */,
+				A313B86922C0EF810065F98F /* SIOTP.swift */,
 			);
 			path = LuminousTraining;
 			sourceTree = "<group>";
@@ -135,8 +165,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A313B85F22C09AE00065F98F /* GTI.swift in Sources */,
+				A313B85B22C096DE0065F98F /* Consumer.swift in Sources */,
+				A313B85922C094510065F98F /* Phone.swift in Sources */,
 				A313B84722C091E70065F98F /* ViewController.swift in Sources */,
+				A313B86122C09AF20065F98F /* PCU.swift in Sources */,
+				A313B86A22C0EF810065F98F /* SIOTP.swift in Sources */,
+				A313B86822C09C2A0065F98F /* Product.swift in Sources */,
+				A313B86622C09B350065F98F /* Battery.swift in Sources */,
 				A313B84522C091E70065F98F /* AppDelegate.swift in Sources */,
+				A313B85722C093E90065F98F /* User.swift in Sources */,
+				A313B85D22C097110065F98F /* SystemIntegrator.swift in Sources */,
+				A313B86322C09B0A0065F98F /* Zileo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
